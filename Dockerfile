@@ -1,4 +1,4 @@
-FROM devwithlando/php:7.2-apache
+FROM devwithlando/php:7.0-apache
 
 RUN apt-get update && apt-get install -y \
     git \
